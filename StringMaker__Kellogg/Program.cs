@@ -14,7 +14,14 @@ namespace StringMaker__Kellogg
 
 			// test 2
 			string ascii = sm.ToString();
-			Console.WriteLine("Ascii Table Values: " + ascii);
+			Console.WriteLine("Ascii Table Values Summed and Spelled Out: " + ascii);
+
+			// test 3
+			string rev = sm.Reverse("Sumbeam Tiger", true);
+			Console.WriteLine("Reversed String with Preserved Casing: " + rev); 
+
+			// test 4
+			sm.Equals("Sunbeam Tiger");
 
 			// test 5, 6, 7 
 			bool ABBA = sm.Symmetric("ABBA");
