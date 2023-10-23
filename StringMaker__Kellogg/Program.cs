@@ -9,7 +9,7 @@ namespace StringMaker__Kellogg
 	{
 		static void Main(string[] args)
 		{
-			StringManager sm = new StringManager("input");
+			StringManager sm = new StringManager("Sunbeam Tiger");
 
 			// test 1
 			string reversed = sm.Reverse("Sunbeam Tiger");
@@ -24,7 +24,8 @@ namespace StringMaker__Kellogg
 			Console.WriteLine("Reversed String with Preserved Casing: " + rev); 
 
 			// test 4
-			sm.Equals("Sunbeam Tiger");
+			bool equals = sm.Equals("Sunbeam Tiger");
+			Console.WriteLine("Input is a string: " + equals);
 
 			// test 5, 6, 7 
 			bool ABBA = sm.Symmetric("ABBA");

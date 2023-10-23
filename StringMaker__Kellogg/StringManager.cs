@@ -167,6 +167,14 @@ namespace StringMaker__Kellogg
 				_input += "Nine ";
 		}
 
-
+		public override bool Equals(object? obj)
+		{
+			//_input = "Sunbeam Tiger";
+			if (obj is string s)
+			{
+				return _input == s;
+			}
+			return false;	
+		}
 	}
 }
