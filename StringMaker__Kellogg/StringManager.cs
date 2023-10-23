@@ -169,7 +169,7 @@ namespace StringMaker__Kellogg
 
 		public override bool Equals(object? obj)
 		{
-			//_input = "Sunbeam Tiger";
+			_input = "Sunbeam Tiger";
 			if (obj is string s)
 			{
 				return _input == s;
