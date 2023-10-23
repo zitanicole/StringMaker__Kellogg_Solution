@@ -1,7 +1,10 @@
 ﻿using System.Runtime.InteropServices;
 // Nicci Kellogg
 // IT113
-// NOTES: This assignment was super challenging. It took me a lot of time. I'm glad I got through it and I hope it is what is to be expected. P.S. Thank you for the extra time to complete it!
+// NOTES: 
+//1. The Reverse method in this program is my own version of it for objects (that I made in class - StringManager, and not the built in, string version of Reverse. 
+//2. This assignment was super challenging. It took me a lot of time. I'm glad I got through it and I hope it is what is to be expected. 
+// 3. Thank you for the extra time to complete it! 
 // BEHAVIORS NOT IMPLIMENTED AND WHY: Am I suppose to pass in a public instance of input from StringManager when I call an instance of StringManager (sm); and have main hold on to that current version of input throughout the program? If that is the case, then I did not do that becuase 6 of the 7 tests require new data to be passed in anyway. 
 namespace StringMaker__Kellogg
 {
