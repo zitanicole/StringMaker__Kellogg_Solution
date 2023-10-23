@@ -1,5 +1,8 @@
 ﻿using System.Runtime.InteropServices;
-
+// Nicci Kellogg
+// IT113
+// NOTES: NOT DONE YET: EQUALS
+// BEHAVIORS NOT IMPLIMENTED AND WHY: 
 namespace StringMaker__Kellogg
 {
 	internal class Program
@@ -30,9 +33,6 @@ namespace StringMaker__Kellogg
 			Console.WriteLine(ABA);
 			bool ABba = sm.Symmetric("ABba");
 			Console.WriteLine(ABba);
-
-
-
 		}
 	}
 }
